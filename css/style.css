@@ -1,0 +1,280 @@
+body{
+	background-image:url("../img/bg.png");
+	font-family: 'Jura', sans-serif;
+	font-weight: 300;
+	color:#e48116;
+}
+
+#container{
+	width: 1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#locatie{
+	color:#ffffff;
+}
+
+#logo{
+	padding-top: 10px;
+}
+#backlink{
+	padding-left: 500;
+}
+#logField{
+	width:600px;
+	height:300px;
+	padding-top: 230px;
+	margin: auto;
+
+}
+#logField>h2{
+	font-weight: 600;
+	font-size: 48pt;
+}
+#logField>h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:200px; 
+	color:#11CEB1;
+}
+#regform{
+	width: 400px;
+	margin:auto;
+	margin-top:150px; 
+}
+#regLabels{
+	font-size: 15pt;
+	float:left;
+	padding-top: 20px;
+	width: 140px;
+}
+#regInput{
+	float:right;
+	width: 150px;
+}
+.login_input{
+	border: 2px solid #a45d10;
+	border-radius: 7px;
+	margin-top: 10px;
+}
+.login_input:focus{
+	outline: none;
+	border-color: #a45d10;
+	box-shadow: 0 0 10px #a45d10;
+}
+.inputField{
+
+	border:2px solid #a45d10;
+	border-radius: 7px;
+}
+.inputField:focus{
+	outline: none;
+	border-color: #a45d10;
+	box-shadow: 0 0 10px #a45d10;
+	border-radius:7px;
+}
+#logFields{
+	width:100px;
+	height:100px;
+	float:right;
+	margin-right: 200px;
+}
+#logLabels{
+	padding-left: 100px;
+	width:50px;
+	font-size: 15pt;
+	float:left;
+}
+#usrname{
+	padding-bottom: 10px;
+}
+#titelEvenement{
+	padding-top: 30px;
+}
+
+#btnLogin{
+	clear:both;
+ 	color:#11CEB1 ;
+ 	background-color: #333333;
+ 	border:none;
+ 	border-radius: 12px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	padding-bottom:5px; 
+ 	padding-top:5px;
+ 	font-size: 15pt;
+}
+#btnLogin:hover{
+ 	color:#e48116;
+ 	background-color: #333333;
+ 	border:none;
+ 	border-radius: 12px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	padding-bottom:5px; 
+ 	padding-top:5px;
+ 	font-size: 15pt;
+}
+#btnCreatePost{
+	float:right;
+
+	clear:both;
+ 	color:#11CEB1 ;
+ 	background-color: #0e0e0e;
+ 	border:none;
+ 	border-radius: 12px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	padding-bottom:5px; 
+ 	padding-top:5px;
+ 	font-size: 10pt;
+ 	 	margin-right: 20px;
+}
+
+#btnCreatePost:hover{
+ 	color:#e48116;
+ 	background-color: #0e0e0e;
+ 	border:none;
+ 	border-radius: 12px;
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	padding-bottom:5px; 
+ 	padding-top:5px;
+ 	font-size: 10pt;
+ 	margin-right: 20px;
+}
+
+#register{
+	float:right;
+	padding-top: 20px;
+	margin-left: 200px;
+	font-size: 20pt;
+}
+#interactief{
+	width:400px;
+	margin:auto;
+	font-size: 20pt;
+	margin-top: 20px;
+	color:white;
+}
+.lijstTitel{
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-size: 20pt;
+}
+#titelEvenement{
+	font-size: 20pt;
+
+	padding-left: 320px;
+	padding-bottom: 20px;
+}
+#bar{
+	background-image:url("../img/bar.png");
+	background-repeat: repeat-x;
+	margin-top: 80px;
+	height:1px;
+}
+#barTwit{
+	background-image:url("../img/bar.png");
+	background-repeat: repeat-x;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height:1px;
+}
+#lijst{
+	height: 200px;
+}
+#aanbevolen{
+	padding-top: 60px;
+	font-size: 35pt;
+	color:#16abe4;
+}
+.afbeelding{
+	float:right;
+	padding-left: 20px;
+}
+.beschrijf{
+	padding-bottom: 20px;
+	font-size: 12pt;
+	color:#16abe4;
+	/*font-family: arial;*/
+}
+#imgDetails>img{
+	width: 200px;
+}
+#beschrijfDetails{
+	float:right;
+	width:700px;
+}
+#descript{
+
+}
+#descriptURL{
+	padding-top:20px;
+}
+#descriptURL>a:hover{
+	color:#16abe4;
+}
+#descriptAdres{
+	padding-top:10px;
+	color:#16abe4;
+}
+#descriptOpen{
+	padding-top:10px;
+	color:#16abe4;
+}
+#contentwrapper{
+	padding-top: 40px;
+	padding-left:200px; 
+}
+#feedUit{
+	padding-top: 20px;
+	float:right;
+	background-color: #333333;
+	height:214px;
+	width:460px;
+	padding-left: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin:0;
+}
+#kader{
+	padding-top: 40px;
+}
+#kader2{
+	float:right;
+	background-color: #333333;
+	height:30px;
+	width:460px;
+	padding-left: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin:0;
+}
+#feedTwit{
+	padding-top:40px;
+	float:left;
+	width:450px;
+}
+#tweets{
+	height: 200px;
+	overflow-y:auto;
+}
+#logout{
+	font-size: 15pt;
+	float:right;
+	padding-top: 30px;
+}
+#logout>a{
+	padding-left: 10px;
+}
+#username{
+	float:left;
+}
+
+a:link{color:#e48116;}
+a:hover{color:#16abe4;}
+a:active{color:#e48116;}
+a:focus{color:#e48116;}
+a:visited{color:#e48116;}
