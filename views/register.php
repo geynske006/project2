@@ -1,24 +1,4 @@
-<!-- this is the Simple sexy PHP Login Script. You can find it on http://www.php-login.net ! It's free and open source. -->
-
-<!-- errors & messages --->
-<?php
-
-// show negative messages
-if ($registration->errors) {
-    foreach ($registration->errors as $error) {
-        echo $error;    
-    }
-}
-
-// show positive messages
-if ($registration->messages) {
-    foreach ($registration->messages as $message) {
-        echo $message;
-    }
-}
-
-?>   
-<!-- html-->
+<!--html-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +13,27 @@ if ($registration->messages) {
         <!-- backlink -->
         <a id="backlink" href="index.php">Terug naar de Loginpagina</a>
 
+
 <form id="regform"method="post" action="register.php" name="registerform">
+    <div id="error"><h3>
+                    <?php
+
+                    // show negative messages
+                    if ($registration->errors) {
+                        foreach ($registration->errors as $error) {
+                            echo $error;    
+                        }
+                    }
+
+                    // show positive messages
+                    if ($registration->messages) {
+                        foreach ($registration->messages as $message) {
+                            echo $message;
+                        }
+                    }
+
+                    ?>      
+    </h3></div>
     <div id="regLabels">
         <label for="login_input_username" class="reg_label">Username</label>
         <label for="login_input_email" class="reg_label">User's email</label>
@@ -45,7 +45,7 @@ if ($registration->messages) {
         <input id="login_input_email" class="login_input" type="email" name="user_email" required /> 
         <input id="login_input_password_new" class="login_input" type="password" name="user_password_new" required autocomplete="off" />  
         <input id="login_input_password_repeat" class="login_input" type="password" name="user_password_repeat" required autocomplete="off" />        
-        <input type="submit"  name="register" value="Registreer" />
+        <input type="submit"  name="register" id="btnCreateRegister" value="Registreer" />
      </div>  
 </form>    
     </div>
